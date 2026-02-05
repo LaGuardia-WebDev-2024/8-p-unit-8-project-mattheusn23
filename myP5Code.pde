@@ -9,15 +9,23 @@ setup = function() {
 
 //🟢draw Function - will run on repeat
 draw = function(){
+
  drawFish(650, 200, color(0,200,200));
 
+drawFish(200,200)
+
+var drawFish = function(fishX,fishY) {
+  // var fishX = 248;
+  // var fishY = 185;
+
+}
 
 };
 
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
 
-  drawFish(250, 100, color(100,50,200));
+  
 
    drawFish(mouseX,mouseY,40,40)
 
