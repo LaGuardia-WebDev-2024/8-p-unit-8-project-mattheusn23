@@ -8,12 +8,9 @@ setup = function() {
      text("🌊",50,250);
      text("🦈",400,250)
 
-drawName();
+
 
    
-
-var x = 200;
-var y = 100;
     
    
 };
@@ -25,20 +22,8 @@ draw = function(){
 
 drawFish(200,200)
 
-var drawFish = function(fishX,fishY) {
-  
-  var drawName = function(){
-    var textX = random(50,550);
-    var textY = random(50,550);
-    var yourName = "SHARK"
-
-    fill(241,9,55);
-    textSize(40);
-    text("Shark", + yourName, textX,textY)
-  }
 
 
-}
 
 };
 
