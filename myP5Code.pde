@@ -38,6 +38,10 @@ drawFish(400,200)
 drawFish(500,250)
 drawFish(600,275)
    drawFish(mouseX,mouseY,40,40)
+   drawSnow(200,300);
+drawguy(100,200);
+drawsquid(350,250);
+drawsquid(250,103);
 
 }
 
@@ -47,6 +51,43 @@ var drawFish = function(fishX, fishY, fishColor){
   fill(fishColor);
   text("𓆝", fishX, fishY);
 };
+
+//drawSnow
+var drawSnow = function(mouseX,mouseY){
+   // var mouseX = random;
+   // var mouseY = random;
+
+  noStroke();
+  fill(125,30,15)
+  textSize(100)
+  text("🤽‍♀️", mouseX, mouseY);
+
+
+};
+
+// drawguy
+var drawguy = function(guyX,guyY){
+  // var guyX = random;
+  // var guyY = random;
+
+  noStroke();
+  fill(300,300,300)
+  textSize(random)
+  text("🐟", guyX, guyY);
+
+
+};
+
+// drawsquid
+var drawsquid = function(squidX,squidY){
+// var squidX = random;
+// var squidY = random; 
+
+noStroke();
+textSize(40)
+text("🦑", squidX, squidY);
+
+}
 
 
 
