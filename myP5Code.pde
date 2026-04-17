@@ -38,7 +38,7 @@ drawFish(400,200)
 drawFish(500,250)
 drawFish(600,275)
    drawFish(mouseX,mouseY,40,40)
-   drawSnow(200,300);
+   drawtree(200,300);
 drawguy(100,200);
 drawsquid(350,250);
 drawsquid(250,103);
@@ -52,8 +52,8 @@ var drawFish = function(fishX, fishY, fishColor){
   text("𓆝", fishX, fishY);
 };
 
-//drawSnow
-var drawSnow = function(mouseX,mouseY){
+//drawtree
+var drawtree = function(mouseX,mouseY){
    // var mouseX = random;
    // var mouseY = random;
 
